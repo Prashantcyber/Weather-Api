@@ -35,7 +35,7 @@ async function checkWeather(city){
 
    switch(weather_data.weather[0].main){
         case 'Clouds':
-        weather_img.src ="/img/cloudy.svg";
+        weather_img.src ="./img/cloudy.svg";
         break;
 
         case 'Clear':
